@@ -1,9 +1,8 @@
-# gpt-fine-tune
- GPT Fine-Tuning Data Preparation with `prepare_gpt_data.py`
-
+# gpt-fine-tune-tools
 This repository provides tools and examples for fine-tuning GPT models. This script, `prepare_gpt_data.py`, is designed to streamline the data preparation process for fine-tuning by automatically generating user queries.
 
 ## `prepare_gpt_data.py`: Generating User Queries for Training Data
+-> GPT Fine-Tuning Data Preparation with `prepare_gpt_data.py`
 
 The `prepare_gpt_data.py` script simplifies the creation of fine-tuning datasets for GPT models. 
 
