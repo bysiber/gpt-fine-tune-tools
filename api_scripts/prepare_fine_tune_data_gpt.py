@@ -1,3 +1,19 @@
+"""
+This script prepares data for fine-tuning GPT models using the OpenAI API.
+
+It takes a directory of text files representing desired assistant responses 
+and automatically generates plausible user queries to create a complete 
+training dataset. This allows you to fine-tune a GPT model to 
+mimic a specific writing style or persona.
+
+Usage:
+  python prepare_gpt_data.py \
+    --persona "<Your desired system persona>" \
+    --data_dir "<Directory with your text files>" \
+    --output_file "<Output file for training data>"
+"""
+
+
 import os
 import json
 import openai
